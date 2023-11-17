@@ -1,0 +1,19 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+.header{
+    background-image: url:(C:\Users\admin\Documents\koduju koduju miluju\závěrečný projekt\zavreceny-projekt\obrazky\dfdf.png);
+    background-size:cover;
+    
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color:#FF66C4;
+
+   
+}
+.menu
+{
+
+}
