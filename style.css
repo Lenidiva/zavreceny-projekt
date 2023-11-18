@@ -1,19 +1,63 @@
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+
+}
+
+
 
 .header{
-    background-image: url:(C:\Users\admin\Documents\koduju koduju miluju\závěrečný projekt\zavreceny-projekt\obrazky\dfdf.png);
-    background-size:cover;
-    
+  display:flex;
+  flex-direction: column;
+  align-items:center;
 }
-h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 80px;
-    color:#FF66C4;
 
-   
-}
-.menu
-{
+
+.header img {
+  width: 350px;
 
 }
+
+
+
+.seznam{
+  display:flex;
+  width:100%;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+
+
+a{
+  text-decoration:none;
+  color:#274E44;
+  padding: 15px;
+}
+
+
+.hlavnisekce{
+  display:grid;
+  grid-template-columns: minmax(20px-100px) 1fr 1fr 1fr minmax(20px-100px);
+  grid-auto-rows: auto;
+}
+
+.sekce1{
+  
+}
+.sekce1 img{
+  width:100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+
+
+
