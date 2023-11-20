@@ -1,0 +1,25 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+
+}
+
+
+.header {
+  width:100%;
+  display:flex;
+  border: 2px solid red;
+ 
+
+}
+
+.sekce1 img{
+  border: 2px solid red;
+  width:20%;
+}
