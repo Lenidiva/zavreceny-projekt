@@ -433,11 +433,11 @@ padding: 30px;
 
 .section-border__title{
   color: var(--c-primary);
-  font-sikze:30px;
+  font-size:30px;
 }
 .section-border__subtitle{
   color:var(--c-link);
-  font-size:25px;
+  font-size:20px;
 }
 
 .introduction__image--position{
@@ -450,8 +450,61 @@ padding: 30px;
   
 }
 
- 
+.section-support-prices__title--large{
+  font-size: 30px;
+  padding:20px;
+
+
+
+}
+.section-support-prices__subsubtitle{
+  font-size:15px;
+  color:rgb(44, 42, 42);
+}
+.section-support-prices__container{
+  display:grid;
+  margin:0;
   
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax(50px,auto);
+  justify-content:center;
+  align-items:center;
+  gap:30px;
+  grid-template-areas:
+  
+  "header"
+  "border-one"
+  "border-two"
+  "border-three"
+  "border-four"
+  "border-five"
+  "header-two"
+  "package-one"
+  "package-two"
+
+
+
+}
+
+.section-support-prices__header{
+  grid-area:header;
+}
+
+.border-one{
+  grid-area:border-one;
+}
+.border-two{
+  grid-area:border-two;
+}
+
+.border-three{
+  grid-area:border-three;
+}
+
+.border-four{
+  grid-area:border-four;
+}
+
 
 @media screen and (min-width: 800px) {
 .menu__toggler{
